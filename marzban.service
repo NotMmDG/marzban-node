@@ -1,0 +1,15 @@
+[Unit]
+Description=Marzban Node Service
+Documentation=https://github.com/gozargah/Marzban-node
+After=network.target nss-lookup.target
+
+[Service]
+ExecStart=/var/lib/marzban-node/marzban-node
+Restart=on-failure
+WorkingDirectory=/var/lib/marzban-node
+EnvironmentFile=/etc/marzban/marzban.env
+User=marzban
+Group=marzban
+
+[Install]
+WantedBy=multi-user.target
