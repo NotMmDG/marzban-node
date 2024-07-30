@@ -12,8 +12,8 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/credentials/insecure"
-	"marzban-node/restservice"
-	"marzban-node/rpycservice"
+	"github.com/NotMmDG/marzban-node/restservice"
+	"github.com/NotMmDG/marzban-node/rpycservice"
 )
 
 var (

@@ -1,4 +1,4 @@
-module marzban-node
+module github.com/NotMmDG/marzban-node
 
 go 1.18
 
